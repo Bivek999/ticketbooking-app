@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* .pre{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: inherit;
+
+} */
+
+.booked{
+    background-color: gray;
+}
+
+.available{
+    background-color: green;
+}
+
+.pre div{
+    border: 1px solid black;
+}
+
+.row-seat{
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+}
+.column-seat{
+    padding: 20px;
+    margin: 20px;
+}
+
+.chair{
+    height: 2.5rem;
+    width: 3rem;
+}
